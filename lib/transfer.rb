@@ -18,7 +18,7 @@ class Transfer
     if valid? && @amount <= @sender.balance && self.status == "pending"
       @sender.balance -= @amount
       @receiver.balance += @amount
-      self.status = "complete"
+      self.status == "complete"
     else
       reject_transfer
     end
