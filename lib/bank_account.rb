@@ -11,6 +11,6 @@ class BankAccount
   end
 
   def deposit(deposit)
-    @balance == self.balance + deposit
+    @balance == self.balance + deposit.to_i
   end
 end
