@@ -13,3 +13,4 @@ class BankAccount
   def deposit(deposit)
     @balance.push(deposit).sum
 end
+end
