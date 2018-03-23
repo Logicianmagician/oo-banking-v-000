@@ -11,6 +11,6 @@ class BankAccount
   end
 
   def deposit(deposit)
-    @balance.to_a.push(deposit).sum
+    @balance.concat(deposit).sum
 end
 end
