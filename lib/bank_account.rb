@@ -13,4 +13,7 @@ class BankAccount
   def deposit(deposit)
     self.balance += deposit.to_i
   end
+
+  def display_balance
+    "Your balance is #{@balance}."
 end
