@@ -11,6 +11,6 @@ class BankAccount
   end
 
   def deposit(deposit)
-    @balance.to_s.concat(deposit).sum
-end
+    @balance == self.balance + deposit
+  end
 end
